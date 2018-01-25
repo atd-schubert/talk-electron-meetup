@@ -1,0 +1,18 @@
+{
+  "name": "mapbender-desktop",
+  "version": "1.0.0",
+  "description": "A desktop App that can run the mapbender.demo server in it",
+  "main": "electron/index.js",
+  "scripts": {
+    "start": "electron ./",
+    "test": "exit 1"
+  },
+  "author": "Arne Schubert <atd.schubert@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.11"
+  },
+  "peerDependencies": {
+    "electron": "^1.7.11"
+  }
+}

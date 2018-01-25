@@ -1,0 +1,23 @@
+{
+  "name": "styled-app",
+  "version": "1.0.0",
+  "description": "A styled desktop App with bootstrap",
+  "main": "electron/index.js",
+  "scripts": {
+    "start": "electron ./",
+    "test": "exit 1"
+  },
+  "author": "Arne Schubert <atd.schubert@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.11"
+  },
+  "peerDependencies": {
+    "electron": "^1.7.11"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery-slim": "^3.0.0",
+    "popper.js": "^1.12.9"
+  }
+}
